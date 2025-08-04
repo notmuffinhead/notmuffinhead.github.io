@@ -141,7 +141,7 @@ p { /* general font used in paragraphs */
     background: var(--misty-sage);
     color: var(--cream);
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold; 
 }
 
@@ -183,6 +183,7 @@ p { /* general font used in paragraphs */
 
 .contact-item a {
     color: var(--light-black);
+    font-size: 1.5rem; 
     text-decoration: none;
     display: flex;
     align-items: center;
