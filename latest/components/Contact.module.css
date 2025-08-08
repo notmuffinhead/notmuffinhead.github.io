@@ -1,0 +1,29 @@
+.contact {
+  background: var(--alpine-clay);
+  padding: 80px 100px;
+  text-align: center;
+}
+
+.contactInfo {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contactItem {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 2rem;
+  transition: all 0.5s ease; 
+}
+
+.contactItem:hover {
+  transform: translateY(-5px);
+}
+
+.contactItem a {
+  color: var(--light-black);
+  font-size: 1.5rem; 
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}

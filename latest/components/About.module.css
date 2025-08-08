@@ -1,0 +1,9 @@
+.about {
+  background: var(--morning-birch); 
+  padding: 80px 100px; 
+}
+
+.aboutText p {
+  color: var(--light-black); 
+  margin-bottom: 1rem; 
+}

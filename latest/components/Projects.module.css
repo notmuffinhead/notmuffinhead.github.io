@@ -1,0 +1,11 @@
+.projects {
+  background: var(--wild-mustard); 
+  padding: 80px 40px;
+  margin: 0 auto;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}

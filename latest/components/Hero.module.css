@@ -1,0 +1,26 @@
+.hero {
+  height: 20vh;
+  background: var(--evergreen-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  position: relative;
+}
+
+.heroNav {
+  display: flex;
+  gap: 2rem; 
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  transition: all 0.5s ease; 
+}
+
+.navLink:hover {
+  transform: translateY(-5px); 
+}
