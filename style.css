@@ -86,7 +86,7 @@ p { /* general font used in paragraphs */
 /* Projects Section */
 .projects {
     background: var(--wild-mustard); 
-    padding: 40px;
+    padding: 80px 40px;
     margin: 0 auto;
 }
 
