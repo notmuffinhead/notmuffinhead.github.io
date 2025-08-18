@@ -6,6 +6,7 @@ export default function Projects() {
     {
       id: 'detector',
       emoji: '⚖️',
+      image: '/images/detector.jpg',
       title: 'Detector',
       description: 'A strain gauge force scale (featuring a DIY load cell and breadboard HX711 replica) that accurately weighs objects from 0-1000g. I made this for Science Olympiad in 2023.',
       tags: ['Arduino']
@@ -13,6 +14,7 @@ export default function Projects() {
     {
       id: 'wifi-lab',
       emoji: '📶',
+      image:'/images/wifi-lab.jpg',
       title: 'Wifi Lab',
       description: 'A double biquad antenna that transmits a ??GHz Wifi signal. I made this for Science Olympiad in 2023.',
       tags: ['lol idk']
@@ -35,8 +37,8 @@ export default function Projects() {
       id: 'website',
       emoji: '🍍',
       title: 'This Website :D',
-      description: 'I created this website to document and showcase my side quests over the years, and to learn HTML, CSS, and some JS!',
-      tags: ['HTML', 'CSS', 'JavaScript']
+      description: 'I created this website to document and showcase my side quests over the years, and to learn HTML, CSS, and JavaScript!',
+      tags: ['HTML', 'CSS', 'JavaScript', 'Next.js']
     }
   ]
 
