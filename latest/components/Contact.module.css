@@ -27,3 +27,20 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 20px;
+  }
+  
+  .contactItem {
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+  
+  .contactItem a {
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+}

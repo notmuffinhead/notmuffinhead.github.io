@@ -1,0 +1,99 @@
+.projectDetail {
+  min-height: 100vh;
+  background: var(--cream);
+  padding: 2rem;
+}
+
+.backButton {
+  display: inline-block;
+  color: var(--evergreen-shadow);
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--evergreen-shadow);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.backButton:hover {
+  background: var(--evergreen-shadow);
+  color: white;
+}
+
+.projectHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projectHeader h1 {
+  color: var(--light-black);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.projectTags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.5rem 1rem;
+  background: var(--misty-sage);
+  color: var(--cream);
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.projectContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projectContent section {
+  margin-bottom: 3rem;
+}
+
+.projectContent h2 {
+  color: var(--evergreen-shadow);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.projectContent ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projectContent li {
+  margin-bottom: 0.5rem;
+  color: var(--light-black);
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .projectDetail {
+    padding: 1rem;
+  }
+  
+  .projectHeader h1 {
+    font-size: 2.2rem;
+  }
+  
+  .projectContent {
+    padding: 0;
+  }
+  
+  .projectContent h2 {
+    font-size: 1.5rem;
+  }
+  
+  .backButton {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

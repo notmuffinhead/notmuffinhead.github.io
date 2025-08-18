@@ -7,3 +7,9 @@
   color: var(--light-black); 
   margin-bottom: 1rem; 
 }
+
+@media (max-width: 768px) {
+  .about {
+    padding: 40px 20px;
+  }
+}

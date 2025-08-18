@@ -39,3 +39,19 @@
   font-size: 1rem;
   font-weight: bold; 
 }
+
+@media (max-width: 768px) {
+  .projectImage {
+    height: 150px;
+    font-size: 3rem;
+  }
+  
+  .projectContent {
+    padding: 1rem;
+  }
+  
+  .tag {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.6rem;
+  }
+}

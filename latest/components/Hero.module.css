@@ -24,3 +24,22 @@
 .navLink:hover {
   transform: translateY(-5px); 
 }
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .heroNav {
+    gap: 1rem;
+  }
+
+  .navLink {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
