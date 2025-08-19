@@ -8,7 +8,7 @@ export default function Projects() {
       emoji: '⚖️',
       image: '/images/detector.jpg',
       title: 'Detector',
-      description: 'A strain gauge force scale (featuring a DIY load cell and breadboard HX711 replica) that accurately weighs objects from 0-1000g. I made this for Science Olympiad in 2023.',
+      description: 'A strain gauge force scale (featuring a DIY load cell and breadboard HX711 replica) that accurately weighs objects from 20-1000g. I made this for Science Olympiad in 2023.',
       tags: ['Arduino']
     },
     {
@@ -16,7 +16,7 @@ export default function Projects() {
       emoji: '📶',
       image:'/images/wifi-lab.jpg',
       title: 'Wifi Lab',
-      description: 'A double biquad antenna that transmits a ??GHz Wifi signal. I made this for Science Olympiad in 2023.',
+      description: 'A double biquad antenna that transmits a 2.4 GHz Wifi signal. I made this for Science Olympiad in 2023.',
       tags: ['lol idk']
     },
     {
@@ -30,7 +30,7 @@ export default function Projects() {
       id: 'phone-mount',
       emoji: '📷',
       title: 'Bite Mount, but for a Phone',
-      description: 'kind of large',
+      description: "Kind of large, probably shouldn't exist",
       tags: ['lol idk']
     },
     {
