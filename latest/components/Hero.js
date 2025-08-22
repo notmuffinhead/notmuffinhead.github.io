@@ -14,13 +14,7 @@ export default function Hero({ showBackButton = false }) {
           left: '50%',
           transform: 'translateX(-50%)'
         }}>
-          <Link href="/" style={{
-            color: 'white',
-            textDecoration: 'none',
-            fontSize: '1.1rem',
-            padding: '10px 20px', 
-            transition: 'all 0.5s ease'
-          }}>
+          <Link href="/" className={styles.navLink}> 
             Back to Home
           </Link>
         </div>

@@ -10,10 +10,12 @@
 }
 
 .contactItem {
-  display: inline-block;
-  margin: 0 1rem;
-  padding: 2rem;
+  padding: 10px 20px;
   transition: all 0.5s ease; 
+  border-radius: 10px; 
+  display: inline-block; 
+  background-color: rgba(255, 255, 255, 0.2); 
+  margin: 0 1rem; 
 }
 
 .contactItem:hover {
