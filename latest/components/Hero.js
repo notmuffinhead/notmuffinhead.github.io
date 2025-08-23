@@ -1,28 +1,16 @@
 import styles from './Hero.module.css'
 import Link from 'next/link'
 
-export default function Hero({ showBackButton = false }) {
+export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.heroLeft}>
         <h1>Maggie Wu</h1>
       </div>
 
-      {showBackButton && (
-        <div style={{
-          position: 'absolute',
-          left: '50%',
-          transform: 'translateX(-50%)'
-        }}>
-          <Link href="/" className={styles.navLink}> 
-            Back to Home
-          </Link>
-        </div>
-      )}
-
       <nav className={styles.heroNav}>
-        <a href={showBackButton ? "/#about" : "#about"} className={styles.navLink}>About</a> 
-        <a href={showBackButton ? "/#contact" : "#contact"} className={styles.navLink}>Contact</a>
+        <a href="#about" className={styles.navLink}>About Me</a> 
+        <a href="#contact" className={styles.navLink}>Contact</a>
       </nav>
     </section>
   )

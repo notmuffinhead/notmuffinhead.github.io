@@ -1,4 +1,5 @@
 import Hero from '../../components/Hero'
+import ProjectFooter from "../../components/ProjectFooter"
 import styles from '../../styles/ProjectDetail.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -6,7 +7,7 @@ import Link from 'next/link'
 export default function WifiLab() {
   return (
     <div> 
-      <Hero showBackButton={true} />
+      <Hero/>
 
       <div className={styles.projectDetail}>
         
@@ -67,6 +68,7 @@ export default function WifiLab() {
           </section>
         </div>
       </div>
+      <ProjectFooter/> 
     </div>
   )
 }
