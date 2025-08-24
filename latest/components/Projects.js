@@ -8,7 +8,7 @@ export default function Projects() {
       emoji: '⚖️',
       image: '/images/detector.jpg',
       title: 'Detector',
-      description: 'A strain gauge force scale (featuring a DIY load cell and breadboard HX711 replica) that accurately weighs objects from 20-1000g. I made this for Science Olympiad in 2023.',
+      description: 'A strain gauge force scale (featuring a DIY load cell and breadboard HX711 replica) that accurately weighs objects from 30-1000g. I made this for Science Olympiad in 2023.',
       tags: ['Arduino']
     },
     {

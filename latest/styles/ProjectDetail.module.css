@@ -52,6 +52,28 @@
   color: var(--light-black);
 }
 
+.pdfLink { 
+  display: inline-block; 
+}
+
+.pdfLink a {
+  color: var(--light-black);
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 10px; 
+  display: inline-block; 
+  background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.pdflink a:visited {
+  color: var(--light-black); 
+}
+
+.pdfLink:hover {
+  transform: translateY(-5px); 
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .projectDetail {

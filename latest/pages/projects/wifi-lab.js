@@ -18,11 +18,18 @@ export default function WifiLab() {
             <h2>{"Overview"}</h2>
             <p>
               {` 
-              Wifi lab is a Science Olympiad event where you construct a 2.4GHz antenna before the tournament, 
-              and take a written test on the principles of EM wave propagation. 
-              This antenna achieved max transmission distance (22m) at the New York State Science Olympiad Tournament in 2023, and I ended up getting Third Place.
+              Wifi lab is a Science Olympiad event where teams "construct an antenna device prior to the tournament 
+              that is designed to transmit/receive a signal at 2.4 GHz
+              and complete a written test on the principles of EM wave propagation." 
+              I made the antenna, and my partner and I assembled a binder for the written portion together. 
+              This antenna achieved max transmission distance (22m) at the New York State Science Olympiad Tournament in 2023, where I got Third Place.
               `}
             </p>
+            <div className={styles.pdfLink}>
+              <a href="/pdfs/Wifi-Lab-Rules-Manual-2023.pdf" target="_blank">
+                Full Event Guidelines
+              </a>
+            </div>
           </section>
 
           <section>
@@ -49,13 +56,16 @@ export default function WifiLab() {
             <h2>{"The Process"}</h2>
             <p>
               {"I also built and tested the following antennas (which didn't perform as well):"} 
-              <ul>
-                <li>{"Cloverleaf antenna"}</li>
-                <li>{"Single biquad antenna"}</li>
-                <li>{"Double biquad antenna (using thinner wire)"}</li>
-                <li>{"Parabolic double biquad antenna"}</li> 
-              </ul>
+            </p>
+            <ul>
+              <li>{"Cloverleaf antenna"}</li>
+              <li>{"Single biquad antenna"}</li>
+              <li>{"Double biquad antenna (using thinner wire)"}</li>
+              <li>{"Parabolic double biquad antenna"}</li> 
+            </ul>
+            <p> 
               {"Andrew McNeil's YouTube videos were really helpful for learning to build these antennas."} 
+              {"I got the idea to use the BNC connector from somewhere else, but can't find the source looking back."} 
             </p>
           </section>
 
@@ -63,8 +73,12 @@ export default function WifiLab() {
             <h2>{"Study Guide"}</h2>
             <p>
               {"The binder that my partner and I put together for the test-taking portion of the event!"} 
-              {"(insert file here)"}
             </p>
+            <div className={styles.pdfLink}>
+              <a href="/pdfs/Wifi-Lab-Scioly-Study-Guide-3.0.pdf" target="_blank">
+                Wifi Lab Scioly Study Guide 3.0
+              </a>
+            </div>
           </section>
         </div>
       </div>

@@ -16,12 +16,26 @@ export default function Detector() {
                 <section>
                 <h2>{"Overview"}</h2>
                 <p>
-                    {"Most of this documentation is from my Science Olympiad Design Log."} 
+                    {`
+                        Detector is a Science Olympiad event where teams "build a mass/force sensing device 
+                        that accurately measures and displays both voltage and actual masses 
+                        of different solid samples ranging from 30 to 1000 grams."
+                        I built the device and studied for the written test myself.  
+                        I got 1st at Regionals, ADD OTHER MEDALS (maybe in a list). 
+                    `} 
+                </p>
+                <div className={styles.pdfLink}>
+                    <a href="/pdfs/Detector-Rules-Manual-2023.pdf" target="_blank">
+                        {"Full Event Guidelines"}
+                    </a>
+                </div>
+                <p>
+                    {"Most of the following documentation is from my Design Log."} 
                 </p>
                 </section>
 
                 <section>
-                <h2>Materials</h2>
+                <h2>{"Materials"}</h2>
                 <ul>
                     <li>{"Elegoo Uno R3: microcontroller to connect sensor, LCD, and LEDs"}</li>
                     <li>{"LEDs: light up to represent different mass ranges (which are specified at the specific tournament)"}</li>
@@ -44,7 +58,7 @@ export default function Detector() {
 
                 <section>
                 <h2>{"Code"}</h2>
-                <p>{"Describe the code (insert file too)"}</p>
+                <p>{"Extensively comment it and insert here"}</p>
                 </section>
 
                 <section>
@@ -64,7 +78,8 @@ export default function Detector() {
                 <h2>{"Previous Iterations"}</h2>
                 <p>
                     {`
-                    I plan to expand this section later, but I was using a force-sensitive resistor (FSR) before, which was way less accurate.
+                    I plan to expand this section later, but I was using a force-sensitive resistor (FSR) before.
+                    Despite being a less accurate sensor (since it's not meant for this purpose), I managed to achieve measurements within 5% of the actual mass. 
                     `} 
                 </p>
                 </section>

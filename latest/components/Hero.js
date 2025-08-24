@@ -9,8 +9,8 @@ export default function Hero() {
       </div>
 
       <nav className={styles.heroNav}>
-        <a href="#about" className={styles.navLink}>About Me</a> 
-        <a href="#contact" className={styles.navLink}>Contact</a>
+        <a href="/#about" className={styles.navLink}>About Me</a> 
+        <a href="/#contact" className={styles.navLink}>Contact</a>
       </nav>
     </section>
   )
