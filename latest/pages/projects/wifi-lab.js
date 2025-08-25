@@ -16,15 +16,13 @@ export default function WifiLab() {
         <div className={styles.projectContent}>
           <section>
             <h2>{"Overview"}</h2>
-            <p>
-              {` 
+            <p>{` 
               Wifi Lab is a Science Olympiad event where teams "construct an antenna device prior to the tournament 
               that is designed to transmit/receive a signal at 2.4 GHz
               and complete a written test on the principles of EM wave propagation." 
               I made the antenna, and my partner and I assembled a binder for the written portion together. 
               This antenna achieved the maximum transmission distance (22m) at the NY State Tournament in 2023.
-              `}
-            </p>
+            `}</p>
             <div className={styles.pdfLink}>
               <Link href="/pdfs/Wifi-Lab-Rules-Manual-2023.pdf" target="_blank">
                 Full Event Guidelines

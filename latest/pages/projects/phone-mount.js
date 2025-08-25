@@ -15,16 +15,14 @@ export default function PhoneMount() {
             <div className={styles.projectContent}>
             <section>
             <h2>{"Inspiration?"}</h2>
-            <p>
-                {`
+            <p>{`
                 I've always wanted a hands-free way to record POV mountain biking clips, but didn't want to buy a GoPro or separate camera.
                 However, not many suitable phone mounts exist; chest mounts are large and expensive, and helmet mounts don't have a great angle. 
                 There exist bite mounts for smaller action cameras, but having one for something as heavy as a modern phone wouldn't be too smart.
                 One ride, I had been drinking Gatorade and occasionally had to hold the bottle with just my mouth while my hands were occupied with steering. 
                 Random ideas flowed into my mind for the rest of the ride, and not too long after, I had ... this (again, wouldn't call it a smart idea).
                 As a result, I don't recommend making this for utility; it's just the aftermath of an intrusive thought taken seriously. 
-                `}
-            </p>
+            `}</p>
             </section>
 
             <section>

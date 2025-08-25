@@ -74,6 +74,21 @@
   transform: translateY(-5px); 
 }
 
+.codeBlock {
+  background: var(--light-black); 
+  padding: 20px; 
+  border-radius: 10px;
+  /* overflow-x: auto; */
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0; 
+}
+
+.codeBlock code {
+  font-family: 'Courier New', monospace; 
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .projectDetail {
