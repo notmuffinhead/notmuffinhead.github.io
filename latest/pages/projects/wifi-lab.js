@@ -18,17 +18,17 @@ export default function WifiLab() {
             <h2>{"Overview"}</h2>
             <p>
               {` 
-              Wifi lab is a Science Olympiad event where teams "construct an antenna device prior to the tournament 
+              Wifi Lab is a Science Olympiad event where teams "construct an antenna device prior to the tournament 
               that is designed to transmit/receive a signal at 2.4 GHz
               and complete a written test on the principles of EM wave propagation." 
               I made the antenna, and my partner and I assembled a binder for the written portion together. 
-              This antenna achieved max transmission distance (22m) at the New York State Science Olympiad Tournament in 2023, where I got Third Place.
+              This antenna achieved the maximum transmission distance (22m) at the NY State Tournament in 2023.
               `}
             </p>
             <div className={styles.pdfLink}>
-              <a href="/pdfs/Wifi-Lab-Rules-Manual-2023.pdf" target="_blank">
+              <Link href="/pdfs/Wifi-Lab-Rules-Manual-2023.pdf" target="_blank">
                 Full Event Guidelines
-              </a>
+              </Link>
             </div>
           </section>
 
@@ -79,6 +79,17 @@ export default function WifiLab() {
                 Wifi Lab Scioly Study Guide 3.0
               </a>
             </div>
+          </section>
+
+          <section>
+            <h2>{"Medals"}</h2>
+            <ul>
+              <li>{"1st Place - Battle at Valley Forge Invitational (41 teams)"}</li>
+              <li>{"5th Place - Long Island Science Olympiad Invitational (53 teams)"}</li> 
+              <li>{"1st Place - Nassau West Regional Tournament (42 teams)"}</li>
+              <li>{"4th Place - Science Olympiad at UPenn Invitational (57 teams)"}</li>
+              <li>{"3rd Place - New York Science Olympiad State Tournament (60 teams)"}</li>
+            </ul>
           </section>
         </div>
       </div>

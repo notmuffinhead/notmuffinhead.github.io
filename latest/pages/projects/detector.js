@@ -10,68 +10,71 @@ export default function Detector() {
         <Hero/>
         <div className={styles.projectDetail}> 
 
-            <h2>Detector</h2> 
+            <h2>{"Detector"}</h2> 
 
             <div className={styles.projectContent}>
                 <section>
-                <h2>{"Overview"}</h2>
-                <p>
-                    {`
-                        Detector is a Science Olympiad event where teams "build a mass/force sensing device 
-                        that accurately measures and displays both voltage and actual masses 
-                        of different solid samples ranging from 30 to 1000 grams."
-                        I built the device and studied for the written test myself.  
-                        I got 1st at Regionals, ADD OTHER MEDALS (maybe in a list). 
-                    `} 
-                </p>
-                <div className={styles.pdfLink}>
-                    <a href="/pdfs/Detector-Rules-Manual-2023.pdf" target="_blank">
-                        {"Full Event Guidelines"}
-                    </a>
-                </div>
-                <p>
-                    {"Most of the following documentation is from my Design Log."} 
-                </p>
+                    <h2>{"Overview"}</h2>
+                    <p>
+                        {`
+                            Detector is a Science Olympiad event where teams "build a mass/force sensing device 
+                            that accurately measures and displays both voltage and actual masses 
+                            of different solid samples ranging from 30 to 1000 grams."
+                            I built the device and studied for the written test myself.  
+                            The device is accurate to around 2% with smaller objects; 
+                            however, the NY State Tournament had us weigh a large vacuum-insulated water bottle with water in it 
+                            (which acted as a lever arm, with its height bending the platform more than it should have). 
+                            I was initially using a force-sensitive resistor with a voltage divider, then upgraded to this configuration,
+                            so I'm still very happy with the fact that I was able to put this together and make it work. 
+                        `} 
+                    </p>
+                    <div className={styles.pdfLink}>
+                        <Link href="/pdfs/Detector-Rules-Manual-2023.pdf" target="_blank">
+                            {"Full Event Guidelines"}
+                        </Link>
+                    </div>
+                    <p>{"Most of the following documentation is from my Design Log."}</p>
+                </section>
+                
+
+                <section>
+                    <h2>{"Materials"}</h2>
+                    <ul>
+                        <li>{"Elegoo Uno R3: microcontroller to connect sensor, LCD, and LEDs"}</li>
+                        <li>{"LEDs: light up to represent different mass ranges (which are specified at the specific tournament)"}</li>
+                        <li>{"Resistors: used to reduce current for LEDs, control contrast for the LCD, and create the wheatstone bridge"}</li>
+                        <li>{"24-bit ADC (attached to surface mount adapter board with pin headers): amplifies the signal from the wheatstone bridge (after going through a network of resistors, capacitors, and a transistor), making it easier for the microcontroller to detect"}</li>
+                        <li>{"Strain gauge: increases resistance (decreases voltage) based on the amount it bends (undergoing tension or compression when a load is applied)"}</li>
+                        <li>{"Strain gauge apparatus: has the piece of Lexan (mounted on wood) which bends when a load is applied; the strain gauge is attached to this. The 3D printed cover ensures consistency in centering the mass"}</li>
+                        <li>{"16x2 LCD display module: displays mass readings from the microcontroller"}</li>
+                    </ul> 
                 </section>
 
                 <section>
-                <h2>{"Materials"}</h2>
-                <ul>
-                    <li>{"Elegoo Uno R3: microcontroller to connect sensor, LCD, and LEDs"}</li>
-                    <li>{"LEDs: light up to represent different mass ranges (which are specified at the specific tournament)"}</li>
-                    <li>{"Resistors: used to reduce current for LEDs, control contrast for the LCD, and create the wheatstone bridge"}</li>
-                    <li>{"24-bit ADC (attached to surface mount adapter board with pin headers): amplifies the signal from the wheatstone bridge (after going through a network of resistors, capacitors, and a transistor), making it easier for the microcontroller to detect"}</li>
-                    <li>{"Strain gauge: increases resistance (decreases voltage) based on the amount it bends (undergoing tension or compression when a load is applied)"}</li>
-                    <li>{"Strain gauge apparatus: has the piece of Lexan (mounted on wood) which bends when a load is applied; the strain gauge is attached to this. The 3D printed cover ensures consistency in centering the mass"}</li>
-                    <li>{"16x2 LCD display module: displays mass readings from the microcontroller"}</li>
-                </ul> 
+                    <h2>{"Labeled Diagram"}</h2>
+                    <Image
+                        src="/images/detector-diagram.jpg"
+                        width={800}
+                        height={600}
+                    /> 
                 </section>
 
                 <section>
-                <h2>{"Labeled Diagram"}</h2>
-                <Image
-                    src="/images/detector-diagram.jpg"
-                    width={800}
-                    height={600}
-                /> 
+                    <h2>{"Code"}</h2>
+                    <p>{"Extensively comment it and insert here"}</p>
                 </section>
 
                 <section>
-                <h2>{"Code"}</h2>
-                <p>{"Extensively comment it and insert here"}</p>
-                </section>
-
-                <section>
-                <h2>{"The Process"}</h2>
-                <p>
-                    {`
-                    To construct the device, a strain gauge apparatus was first created using pieces of wood and a slab of Lexan (clear plastic). 
-                    The strain gauge (350 ohms) was mounted using cyanoacrylate glue and sealed using silicon sealant.
-                    Next, it was added as a variable resistor in a wheatstone bridge, which consisted of two 220 ohm resistors and one 350 ohm resistor to keep it balanced. 
-                    The resulting signal was put into a load cell amplifier (based on a typical HX711 board) consisting of a network of resistors, capacitors, one transistor, and a 24-bit ADC, which was first soldered to a surface mount adapter board with pin headers. 
-                    Finally, the microcontroller interprets the signal and outputs a mass value based on a regression equation, indicating whether certain LEDs should light up and showing masses on the 16x2 LCD display.
-                    `} 
-                </p>
+                    <h2>{"The Process"}</h2>
+                    <p>
+                        {`
+                        To construct the device, a strain gauge apparatus was first created using pieces of wood and a slab of Lexan (clear plastic). 
+                        The strain gauge (350 ohms) was mounted using cyanoacrylate glue and sealed using silicon sealant.
+                        Next, it was added as a variable resistor in a wheatstone bridge, which consisted of two 220 ohm resistors and one 350 ohm resistor to keep it balanced. 
+                        The resulting signal was put into a load cell amplifier (based on a typical HX711 board) consisting of a network of resistors, capacitors, one transistor, and a 24-bit ADC, which was first soldered to a surface mount adapter board with pin headers. 
+                        Finally, the microcontroller interprets the signal and outputs a mass value based on a regression equation, indicating whether certain LEDs should light up and showing masses on the 16x2 LCD display.
+                        `} 
+                    </p>
                 </section>
 
                 <section>
@@ -82,6 +85,16 @@ export default function Detector() {
                     Despite being a less accurate sensor (since it's not meant for this purpose), I managed to achieve measurements within 5% of the actual mass. 
                     `} 
                 </p>
+                </section>
+
+                <section>
+                    <h2>{"Medals"}</h2>
+                    <ul>
+                        <li>{"4th Place - Long Island Science Olympiad Invitational (53 teams)"}</li>
+                        <li>{"1st Place - Nassau West Regional Tournament (42 teams)"}</li>
+                        <li>{"4th Place - Science Olympiad at UPenn Invitational (57 teams)"}</li>
+                        <li>{"6th Place - New York Science Olympiad State Tournament (60 teams)"}</li>
+                    </ul>
                 </section>
             </div> 
         </div> 
