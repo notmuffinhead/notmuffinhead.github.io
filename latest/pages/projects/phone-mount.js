@@ -1,4 +1,5 @@
 import Hero from '../../components/Hero'
+import VideoPlayer from '../../components/VideoPlayer'
 import ProjectFooter from "../../components/ProjectFooter"
 import styles from '../../styles/ProjectDetail.module.css'
 import Image from 'next/image'
@@ -27,9 +28,11 @@ export default function PhoneMount() {
 
             <section>
             <h2>{"A Video I Took with It"}</h2> 
+            <VideoPlayer src="/videos/mountain-biking-pov-compressed.mp4" /> 
             <p>
-                {"Insert video here somehow"}
+                {"This was taken at Redemption Center in Pittsburgh!"}
             </p>
+            
             </section>
 
             <section>
