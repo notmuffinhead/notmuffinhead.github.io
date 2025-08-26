@@ -13,7 +13,7 @@ export default function Hero() {
           {"About Me"}
         </Link> 
         <Link href="/#contact" className={styles.navLink}>
-          {"Contact"}
+          {"Find Me Online"}
         </Link>
       </nav>
     </section>
