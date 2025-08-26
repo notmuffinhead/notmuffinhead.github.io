@@ -11,7 +11,7 @@ export default function WifiLab() {
 
       <div className={styles.projectDetail}>
         
-        <h2>Wifi Lab</h2> 
+        <h2>{"Wifi Lab"}</h2> 
 
         <div className={styles.projectContent}>
           <section>
@@ -45,9 +45,13 @@ export default function WifiLab() {
             <h2>{"Labeled Diagram"}</h2>
             <Image
               src="/images/wifi-lab-diagram.jpg"
-              width={600}
-              height={600}
               alt=""
+              width={936}
+              height={880}
+              style={{
+                width: '100%', 
+                height: 'auto' 
+              }}
             /> 
           </section>
 

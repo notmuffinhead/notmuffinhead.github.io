@@ -9,9 +9,13 @@ export default function About() {
         <div className={styles.aboutImage}>
           <Image
             src="/images/me.jpg"  
-            width={300}
-            height={300}
             alt=""
+            width={594}
+            height={601}
+            style={{
+              width: '100%', 
+              height: 'auto' 
+            }}
           />
         </div>
         <div className={styles.aboutText}>

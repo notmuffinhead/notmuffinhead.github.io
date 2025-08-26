@@ -29,6 +29,7 @@ export default function Projects() {
     {
       id: 'phone-mount',
       emoji: '📷',
+      image: '/images/phone-mount.jpeg',
       title: 'Bite Mount, but for a Phone',
       description: "Kind of large, probably shouldn't exist",
       tags: ['lol idk']

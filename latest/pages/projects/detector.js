@@ -53,9 +53,13 @@ export default function Detector() {
                     <h2>{"Labeled Diagram"}</h2>
                     <Image
                         src="/images/detector-diagram.jpg"
-                        width={800}
-                        height={600}
                         alt=""
+                        width={1108}
+                        height={837}
+                        style={{
+                            width: '100%', 
+                            height: 'auto' 
+                        }}
                     /> 
                 </section>
 
