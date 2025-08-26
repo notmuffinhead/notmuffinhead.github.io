@@ -68,7 +68,7 @@ export default function WifiLab() {
             </ul>
             <p> 
               {"Andrew McNeil's YouTube videos were really helpful for learning to build these antennas."} 
-              {"I got the idea to use the BNC connector from somewhere else, but can't find the source looking back."} 
+              {"I think I got the idea to use the BNC connector from somewhere else, but can't recall the source."} 
             </p>
           </section>
 
@@ -79,7 +79,7 @@ export default function WifiLab() {
             </p>
             <div className={styles.fileLink}>
               <a href="/pdfs/Wifi-Lab-Scioly-Study-Guide-3.0.pdf" target="_blank">
-                Wifi Lab Scioly Study Guide 3.0
+                {"Wifi Lab Scioly Study Guide 3.0"}
               </a>
             </div>
           </section>

@@ -50,10 +50,26 @@ export default function PhoneMount() {
             <p>
                 {"I lost the original CAD files, but making this was simple. CAD and 3D print the following parts:"}
             </p> 
-            <ul>
-                <li>{"A phone tray (flat on the bottom, with raised edges so that your phone can't slide out; consider adding a lanyard loop to this so that you can wear it around your neck when not using it)"}</li>
-                <li>{"Something that the Gatorade bottle can screw onto, with a wider base that has slots for two velcro straps"}</li>
-            </ul> 
+            <div className={styles.flexContainer}>
+                <div className={styles.flexText}>
+                    <ul>
+                        <li>{"A phone tray (flat on the bottom, with raised edges so that your phone can't slide out; consider adding a lanyard loop to this so that you can wear it around your neck when not using it)"}</li>
+                        <li>{"Something that the Gatorade bottle can screw onto, with a wider base that has slots for two velcro straps"}</li>
+                    </ul> 
+                </div>
+                <div className={styles.flexImage}>
+                    <Image
+                        src="/images/phone-mount-reference.jpeg"  
+                        alt=""
+                        width={3783}
+                        height={2770}
+                        style={{
+                            width: '100%', 
+                            height: 'auto' 
+                        }}
+                    />
+                </div>
+            </div>
             <p>
                 {"Then, referencing the picture, glue the two parts together and screw on the cut Gatorade bottle."} 
                 {"Congrats on making something that can film POV mountain biking videos (but also maybe destroy your teeth if you aren't careful)!"}

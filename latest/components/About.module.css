@@ -8,10 +8,12 @@
   align-items: center; /* vertically center */
   gap: 2rem; /* space between image and text */
   flex-wrap: wrap; /* lets it stack on small screens */
+  margin-bottom: 1rem; 
 }
 
 .aboutImage {
-  flex-shrink: 0; /* prevent image from shrinking */
+  flex: 0 0 auto;
+  max-width: 400px; 
 }
 
 .aboutImage img {
@@ -21,12 +23,6 @@
 
 .aboutText {
   flex: 1; /* take remaining space */
-}
-
-
-.aboutText p {
-  color: var(--light-black); 
-  margin-bottom: 1rem; 
 }
 
 @media (max-width: 768px) {

@@ -23,8 +23,8 @@ export default function Projects() {
       id: 'amogus-gun',
       emoji: 'ඞ',
       title: 'Figurine Blaster',
-      description: '... not suspicious at all',
-      tags: ['lol idk']
+      description: '... not suspicious at all, page in progress',
+      tags: ['???']
     },
     {
       id: 'phone-mount',
