@@ -28,7 +28,7 @@ export default function PhoneMount() {
 
             <section>
             <h2>{"A Video I Took with It"}</h2> 
-            <VideoPlayer src="/videos/mountain-biking-pov-compressed.mp4" /> 
+            <VideoPlayer src="/videos/mountain-biking-pov.mp4" /> 
             <p>
                 {"This was taken at Redemption Center in Pittsburgh!"}
             </p>
