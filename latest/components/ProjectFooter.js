@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 export default function ProjectFooter() {
   return (
-    <footer className={styles.footer}>
-        <Link href="/" className={styles.backButton}>
-            Back to Home
-        </Link> 
-    </footer>
+    <div className={styles.footer}>
+      <Link href="/" className={styles.backButton}>
+        {"Back to Home"}
+      </Link> 
+    </div>
   )
 }

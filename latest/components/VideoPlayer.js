@@ -1,5 +1,5 @@
 
-export default function VideoPlayer({ src, title }) {
+export default function VideoPlayer({ src }) {
   return (
     <video 
       style={{

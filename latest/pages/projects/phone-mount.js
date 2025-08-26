@@ -3,11 +3,14 @@ import VideoPlayer from '../../components/VideoPlayer'
 import ProjectFooter from "../../components/ProjectFooter"
 import styles from '../../styles/ProjectDetail.module.css'
 import Image from 'next/image' 
+import TempBanner from '../../components/TempBanner'
 
 export default function PhoneMount() {
   return (
     <div> 
         <Hero/>
+        <TempBanner />
+
         <div className={styles.projectDetail}> 
 
             <h2>{"Phone Mount"}</h2> 

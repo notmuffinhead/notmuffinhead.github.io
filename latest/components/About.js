@@ -30,7 +30,8 @@ export default function About() {
 
             I document my projects here partly for my future self, 
             and partly because I hope someone else will find them interesting 
-            (or at least entertaining).
+            (or at least entertaining). A lot of these are from high school,
+            and I hope to create more projects soon!
           `}</p>
           <p>{`
             When I'm not studying, working on research, or tinkering, 
