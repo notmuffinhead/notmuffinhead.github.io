@@ -78,8 +78,8 @@ export default function WifiLab() {
               {"The binder that my partner and I put together for the test-taking portion of the event!"} 
             </p>
             <div className={styles.fileLink}>
-              <a href="/pdfs/Wifi-Lab-Scioly-Study-Guide-3.0.pdf" target="_blank">
-                {"Wifi Lab Scioly Study Guide 3.0"}
+              <a href="/pdfs/Wifi-Lab-SciOly-Study-Guide-3.0.pdf" target="_blank">
+                {"Wifi Lab SciOly Study Guide 3.0"}
               </a>
             </div>
           </section>
