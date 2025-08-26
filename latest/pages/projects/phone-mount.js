@@ -2,8 +2,7 @@ import Hero from '../../components/Hero'
 import VideoPlayer from '../../components/VideoPlayer'
 import ProjectFooter from "../../components/ProjectFooter"
 import styles from '../../styles/ProjectDetail.module.css'
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image' 
 
 export default function PhoneMount() {
   return (
