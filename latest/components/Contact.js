@@ -20,6 +20,11 @@ export default function Contact() {
             {"GitHub"}
           </a>
         </div> 
+        <div className={styles.contactItem}>
+          <a href="https://instagram.com/magggiewu" target="_blank">
+            {"Instagram"}
+          </a>
+        </div>
       </div>
     </section>
   )
