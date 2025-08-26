@@ -47,6 +47,7 @@ export default function WifiLab() {
               src="/images/wifi-lab-diagram.jpg"
               width={600}
               height={600}
+              alt=""
             /> 
           </section>
 
@@ -91,7 +92,7 @@ export default function WifiLab() {
           </section>
         </div>
       </div>
-      
+
       <ProjectFooter/> 
     </div>
   )

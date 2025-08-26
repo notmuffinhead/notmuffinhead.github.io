@@ -11,6 +11,7 @@ export default function About() {
             src="/images/me.jpg"  
             width={300}
             height={300}
+            alt=""
           />
         </div>
         <div className={styles.aboutText}>

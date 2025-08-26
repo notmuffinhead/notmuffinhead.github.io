@@ -55,6 +55,7 @@ export default function Detector() {
                         src="/images/detector-diagram.jpg"
                         width={800}
                         height={600}
+                        alt=""
                     /> 
                 </section>
 
