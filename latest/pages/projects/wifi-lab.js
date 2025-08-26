@@ -23,7 +23,7 @@ export default function WifiLab() {
               I made the antenna, and my partner and I assembled a binder for the written portion together. 
               This antenna achieved the maximum transmission distance (22m) at the NY State Tournament in 2023.
             `}</p>
-            <div className={styles.pdfLink}>
+            <div className={styles.fileLink}>
               <Link href="/pdfs/Wifi-Lab-Rules-Manual-2023.pdf" target="_blank">
                 Full Event Guidelines
               </Link>
@@ -72,7 +72,7 @@ export default function WifiLab() {
             <p>
               {"The binder that my partner and I put together for the test-taking portion of the event!"} 
             </p>
-            <div className={styles.pdfLink}>
+            <div className={styles.fileLink}>
               <a href="/pdfs/Wifi-Lab-Scioly-Study-Guide-3.0.pdf" target="_blank">
                 Wifi Lab Scioly Study Guide 3.0
               </a>
@@ -91,6 +91,7 @@ export default function WifiLab() {
           </section>
         </div>
       </div>
+      
       <ProjectFooter/> 
     </div>
   )

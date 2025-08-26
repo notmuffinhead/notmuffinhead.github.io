@@ -52,11 +52,13 @@
   color: var(--light-black);
 }
 
-.pdfLink { 
-  display: inline-block; 
+.fileLink { 
+  display: flex; 
+  justify-content: center;  
+  padding: 10px 0px 30px; 
 }
 
-.pdfLink a {
+.fileLink a {
   color: var(--light-black);
   text-decoration: none;
   font-size: 1.2rem;
@@ -66,27 +68,12 @@
   background-color: rgba(255, 255, 255, 0.2); 
 }
 
-.pdflink a:visited {
+.fileLink a:visited {
   color: var(--light-black); 
 }
 
-.pdfLink:hover {
+.fileLink:hover {
   transform: translateY(-5px); 
-}
-
-.codeBlock {
-  background: var(--light-black); 
-  padding: 20px; 
-  border-radius: 10px;
-  /* overflow-x: auto; */
-  font-size: 14px;
-  line-height: 1.5;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  margin: 0; 
-}
-
-.codeBlock code {
-  font-family: 'Courier New', monospace; 
 }
 
 /* Mobile responsive styles */
