@@ -8,7 +8,7 @@ export default function VideoPlayer({ src, title }) {
       preload="metadata"
     >
       <source src={src} type="video/mp4" />
-      <p>Your browser doesn't support HTML5 video.</p>
+      <p>{"Your browser doesn't support HTML5 video."}</p>
     </video>
   );
 }
