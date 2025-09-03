@@ -45,7 +45,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className={styles.projects}>
-      <h2>My Projects</h2>
+      <h2>{"My Projects"}</h2>
       <div className={styles.projectsGrid}>
         {projects.map(project => (
           <ProjectCard key={project.id} project={project} />
