@@ -4,12 +4,10 @@
   /* --morning-birch: #e8c4a9;  */
   --morning-birch: #fdd4b9; 
   /* --alpine-clay: #c29681;  */
-  /* --alpine-clay: #c19a6b; */
   --alpine-clay: #c4a484; 
   --sky-blue: #dff3f5; /* a color i made */
   --darker-sky-blue: #91ccd4;
   --evergreen-shadow: #6d7969; 
-  --cream: #e6dbbd; 
   --light-black: #333; 
 }
 
@@ -30,7 +28,7 @@ body {
 }
 
 h1 {
-  color: white; 
+  color: var(--sky-blue); 
   font-size: 3rem;
   margin: 0; 
 }

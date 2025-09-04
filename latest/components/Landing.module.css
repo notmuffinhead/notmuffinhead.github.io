@@ -10,9 +10,7 @@
   text-align: center;
   padding: 1.5rem 4rem;
   border-radius: 30px; 
-  border-width: 2px; 
-  border-color: var(--sky-blue); 
-  border-style: solid; 
+  border: 2px solid var(--sky-blue); 
   max-width: 50%; 
 }
 
