@@ -31,7 +31,7 @@ export default function Projects() {
       emoji: '📷',
       image: '/images/phone-mount.jpeg',
       title: 'Bite Mount, but for a Phone Camera (?)',
-      description: "I made it to record short POV mountain biking videos.",
+      description: "I made it to record short POV mountain biking videos but it's a bit questionable.",
       tags: ['Fusion 360', '3D Printing', '2023']
     },
     {
