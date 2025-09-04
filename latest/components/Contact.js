@@ -17,7 +17,7 @@ export default function Contact() {
           </a>
         </div>
         <div className={styles.contactItem}>
-          <a href="/pdfs/Maggie-Wu-Resume-Public-090225.pdf" target="_blank">
+          <a href="/pdfs/Maggie-Wu-Resume-Public-090425.pdf" target="_blank">
               {"Résumé"}
           </a>
         </div>
