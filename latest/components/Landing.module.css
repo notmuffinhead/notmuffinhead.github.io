@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, var(--darker-sky-blue) 30%, var(--sky-blue) 100%);
+  background: linear-gradient(to bottom, var(--darker-sky-blue) 50%, var(--sky-blue) 100%);
 }
 
 .content {
@@ -12,13 +12,17 @@
   border-radius: 30px; 
   border: 2px solid var(--sky-blue); 
   max-width: 50%; 
+  transform: translateY(-10vh);
 }
 
 .content h1 {
   font-size: 3rem;
-  color: var(--evergreen-shadow); 
   font-weight: 600;
   padding: 1rem 0rem; 
+}
+
+.content p {
+  color: var(--sky-blue); 
 }
 
 @media (max-width: 768px) {
