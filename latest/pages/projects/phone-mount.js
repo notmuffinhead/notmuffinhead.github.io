@@ -45,7 +45,7 @@ export default function PhoneMount() {
                 <li>{"Glue - I think I used E6000, not sure though"}</li>
                 <li>{"3 screws"}</li>
                 <li>{"2 strips of double-sided Velcro - each a few cm more than the circumference of your phone"}</li>
-                <li>{"3D printing stuff"}</li>
+                <li>{"3D printer"}</li>
             </ul> 
             </section>
 

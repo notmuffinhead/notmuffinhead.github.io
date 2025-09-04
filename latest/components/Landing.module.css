@@ -3,14 +3,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--sky-blue); 
+  background: linear-gradient(to bottom, var(--darker-sky-blue) 30%, var(--sky-blue) 100%);
 }
 
 .content {
   text-align: center;
   padding: 1.5rem 4rem;
-  background: rgba(255, 255, 255, 0.7); 
+  /* background: var(--sky-blue);  */
   border-radius: 30px; 
+  border-width: 2px; 
+  border-color: var(--sky-blue); 
+  border-style: solid; 
   max-width: 50%; 
 }
 
