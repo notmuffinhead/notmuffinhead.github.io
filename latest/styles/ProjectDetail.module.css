@@ -89,7 +89,7 @@
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .projectDetail {
-    padding: 1rem;
+    padding: 20px;
   }
   
   .projectHeader h1 {
