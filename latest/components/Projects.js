@@ -38,7 +38,7 @@ export default function Projects() {
       id: 'website',
       emoji: '🌸',
       title: 'This Website :D',
-      description: "I created this website to document and showcase my side quests over the years, and to learn about web development! Its first version only used HTML and CSS.",
+      description: "I created this website (with Next.js) to document and showcase my side quests over the years, and to learn about web development!",
       tags: ['React', 'Next.js', 'JavaScript', 'CSS', '2025']
     }
   ]
