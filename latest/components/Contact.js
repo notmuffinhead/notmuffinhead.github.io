@@ -26,6 +26,11 @@ export default function Contact() {
             {"GitHub"}
           </Link>
         </div> 
+        <div className={styles.contactItem}>
+          <Link href="https://www.strava.com/athletes/maggiewu" target="_blank">
+            {"Strava"}
+          </Link>
+        </div> 
       </div>
     </section>
   )

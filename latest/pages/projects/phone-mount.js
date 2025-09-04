@@ -16,6 +16,9 @@ export default function PhoneMount() {
             <h2>{"Phone Mount"}</h2> 
 
             <div className={styles.projectContent}>
+            
+            <p>{"(note: this one is pretty unserious)"}</p>
+
             <section>
             <h2>{"Inspiration?"}</h2>
             <p>{`
@@ -74,8 +77,10 @@ export default function PhoneMount() {
                 </div>
             </div>
             <p>
-                {"Then, referencing the picture, glue the two parts together and screw on the cut Gatorade bottle."} 
-                {"Congrats on making something that can film POV mountain biking videos (but also maybe destroy your teeth if you aren't careful)!"}
+                {`
+                Then, referencing the picture, glue the two parts together and screw on the cut Gatorade bottle. 
+                Congrats on making something that can maybe film POV mountain biking videos (but also maybe destroy your teeth if you aren't careful)!
+                `}
             </p> 
             </section>
             </div>

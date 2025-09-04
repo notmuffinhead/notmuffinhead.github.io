@@ -69,7 +69,7 @@ export default function WifiLab() {
               <li>{"Parabolic double biquad antenna"}</li> 
             </ul>
             <p> 
-              {"Andrew McNeil's YouTube videos were really helpful for learning to build these antennas."} 
+              {"Andrew McNeil's YouTube videos were really helpful for learning to build these antennas. "} 
               {"I think I got the idea to use the BNC connector from somewhere else, but can't recall the source."} 
             </p>
           </section>
@@ -84,6 +84,9 @@ export default function WifiLab() {
                 {"Wifi Lab SciOly Study Guide 3.0"}
               </a>
             </div>
+            <p>
+              {"I focused on learning about working principles and all the general knowledge, while my partner did most of the math."} 
+            </p>
           </section>
 
           <section>

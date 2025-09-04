@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 
 :root {
   /* --morning-birch: #e8c4a9;  */
   --morning-birch: #fdd4b9; 
-  --alpine-clay: #c29681; 
-  --misty-sage: #b9af91; 
+  /* --alpine-clay: #c29681;  */
+  --alpine-clay: #c19a6b;
   --sky-blue: #dff3f5; /* a color i made */
   --evergreen-shadow: #6d7969; 
   --cream: #e6dbbd; 
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: 'Fira Code', monospace; 
+  font-family: 'Source Code Pro', monospace; 
   line-height: 1.6;
   color: #333;
 }
