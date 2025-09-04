@@ -30,8 +30,8 @@ export default function Projects() {
       id: 'phone-mount',
       emoji: '📷',
       image: '/images/phone-mount.jpeg',
-      title: 'Bite Mount, but for a Phone Camera',
-      description: "A slightly unwieldy thing I made to record short POV mountain biking videos.",
+      title: 'Bite Mount, but for a Phone Camera (?)',
+      description: "I made it to record short POV mountain biking videos.",
       tags: ['Fusion 360', '3D Printing', '2023']
     },
     {
@@ -39,7 +39,7 @@ export default function Projects() {
       emoji: '🍍',
       title: 'This Website :D',
       description: "I created this website to document and showcase my side quests over the years, and to learn about web development! Its first version only used HTML and CSS.",
-      tags: ['React', 'Next.js', 'JavaScript', 'CSS', 'HTML', '2025']
+      tags: ['React', 'Next.js', 'JavaScript', 'CSS', '2025']
     }
   ]
 
@@ -50,6 +50,16 @@ export default function Projects() {
         {projects.map(project => (
           <ProjectCard key={project.id} project={project} />
         ))}
+      </div>
+      <div className={styles.bigCard}>
+        <section>
+          <h3>{"Currently Working On..."}</h3>
+          <ul>
+            <li>{"Learning PCB design on Fusion 360"}</li>
+            <li>{"Improving a figurine launcher I half-completed in 2023 (with a custom PCB)"}</li>
+            <li>{"Making a power meter and accompanying app for my bike using an Arduino Nano ESP32 (more of a long term project to learn about IoT and signal processing)"}</li>
+          </ul>
+        </section>
       </div>
     </section>
   )

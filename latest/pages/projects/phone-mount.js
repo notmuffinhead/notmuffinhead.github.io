@@ -3,13 +3,11 @@ import VideoPlayer from '../../components/VideoPlayer'
 import ProjectFooter from "../../components/ProjectFooter"
 import styles from '../../styles/ProjectDetail.module.css'
 import Image from 'next/image' 
-import TempBanner from '../../components/TempBanner'
 
 export default function PhoneMount() {
   return (
     <div> 
         <Hero/>
-        <TempBanner />
 
         <div className={styles.projectDetail}> 
 
@@ -17,7 +15,7 @@ export default function PhoneMount() {
 
             <div className={styles.projectContent}>
             
-            <p>{"(note: this one is pretty unserious)"}</p>
+            <p>{"(note: this one is pretty unserious, made it just for fun)"}</p>
 
             <section>
             <h2>{"Inspiration?"}</h2>

@@ -20,18 +20,15 @@ export default function About() {
         </div>
         <div className={styles.aboutText}>
           <p>{`
-            Hi, I'm Maggie!
-          `}</p>
-          <p>{`
             I'm a student at Carnegie Mellon studying ECE, Robotics, and CS. 
             In my free time, I enjoy building random things —
             some of them useful, most of them just for fun —
             but I aim to learn something new with each one. 
 
-            I document my projects here partly for my future self, 
+            I write about my projects here partly for my future self, 
             and partly because I hope someone else will find them interesting 
             (or at least entertaining). A lot of these are from high school,
-            and I hope to create more projects soon!
+            and I hope to create more soon!
           `}</p>
           <p>{`
             When I'm not studying, working on research, or tinkering, 

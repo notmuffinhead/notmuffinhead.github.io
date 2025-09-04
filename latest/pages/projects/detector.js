@@ -3,13 +3,11 @@ import ProjectFooter from "../../components/ProjectFooter"
 import styles from '../../styles/ProjectDetail.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import TempBanner from '../../components/TempBanner'
 
 export default function Detector() {
   return (
     <div> 
         <Hero/>
-        <TempBanner />
 
         <div className={styles.projectDetail}> 
 

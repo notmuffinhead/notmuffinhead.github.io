@@ -9,6 +9,9 @@ export default function Hero() {
       </div>
 
       <nav className={styles.heroNav}>
+        <Link href="/#projects" className={styles.navLink}>
+          {"Projects"}
+        </Link> 
         <Link href="/#about" className={styles.navLink}>
           {"About Me"}
         </Link> 

@@ -1,5 +1,5 @@
 import Hero from '../components/Hero'
-import TempBanner from '../components/TempBanner'
+import Landing from '../components/Landing'
 import Projects from '../components/Projects'
 import About from '../components/About'
 import Contact from '../components/Contact'
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <TempBanner />
+      <Landing />
       <Projects />
       <About />
       <Contact />

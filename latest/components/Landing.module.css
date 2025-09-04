@@ -1,0 +1,33 @@
+.landing {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--sky-blue); 
+}
+
+.content {
+  text-align: center;
+  padding: 1.5rem 4rem;
+  background: rgba(255, 255, 255, 0.7); 
+  border-radius: 30px; 
+  max-width: 50%; 
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: var(--evergreen-shadow); 
+  font-weight: 600;
+  padding: 1rem 0rem; 
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+  
+  .content {
+    padding: 0 1rem;
+    max-width: 90%;
+  }
+}
