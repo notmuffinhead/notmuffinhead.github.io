@@ -7,13 +7,13 @@
 }
 
 .backButton {
-  color: var(--light-black);
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   padding: 10px 20px;
   border-radius: 10px; 
   display: inline-block; 
-  background-color: var(--morning-birch); 
+  background-color: rgba(255, 255, 255, 0.2); 
 }
 
 .backButton:hover {
