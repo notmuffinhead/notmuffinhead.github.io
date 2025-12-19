@@ -42,7 +42,8 @@
 .fileLink { 
   display: flex; 
   justify-content: center;  
-  padding: 10px 0px 30px; 
+  padding: 10px 30px; 
+  gap: 50px; 
 }
 
 .fileLink a {

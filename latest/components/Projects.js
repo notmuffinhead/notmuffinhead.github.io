@@ -35,6 +35,14 @@ export default function Projects() {
       tags: ['Fusion 360', '3D Printing', '2023']
     },
     {
+      id: 'hs-research',
+      emoji: '🔎',
+      image: '/images/alaska-pic.jpg',
+      title: 'High School Research!',
+      description: "All my posters and a bit about my start with research; photo from Harding Icefield Trail in August 2022.", 
+      tags: ['research 😍']
+    },
+    {
       id: 'website',
       emoji: '🌸',
       title: 'This Website :D',
