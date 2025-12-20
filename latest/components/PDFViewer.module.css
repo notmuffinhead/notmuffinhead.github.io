@@ -4,7 +4,7 @@
 
 .embedWrapper {
   position: relative;
-  padding-bottom: 80%; /* 56.25 for 16:9 aspect ratio */
+  padding-bottom: 80%;
   height: 0;
   overflow: hidden;
   max-width: 800px;
@@ -17,4 +17,47 @@
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* Hide link on desktop */
+.mobileDownload {
+  display: none;
+}
+
+/* from projectdetail */
+.fileLink { 
+  display: flex; 
+  justify-content: center;  
+  padding: 10px 20px; 
+}
+
+.fileLink a {
+  color: var(--light-black);
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 10px; 
+  display: inline-block; 
+  background-color: var(--morning-birch); 
+}
+
+.fileLink a:visited {
+  color: var(--light-black); 
+}
+
+.fileLink:hover {
+  transform: translateY(-5px); 
+}
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .mobileDownload {
+    display: block;
+  }
+  
+  .embedWrapper {
+    display: none; /* Hide iframe on mobile */
+  }
 }

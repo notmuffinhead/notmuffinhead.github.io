@@ -36,9 +36,11 @@ export default function HSResearch() {
             `}</p> 
             <PDFViewer
                 src="/pdfs/Senior-Poster-Board.pdf"
+                buttonText="View Poster Board"
             />
             <PDFViewer
                 src="/pdfs/12th-Grade-Regeneron-Paper.pdf"
+                buttonText="View Regeneron Paper"
             />
             <div className={styles.fileLink}>
               <Link href="https://doi.org/10.1016/j.watres.2024.122562" target="_blank">
@@ -61,9 +63,11 @@ export default function HSResearch() {
             `}</p> 
             <PDFViewer
                 src="/pdfs/Brimagelle-Poster-Board.pdf"
+                buttonText="View Poster Board"
             />
             <PDFViewer
                 src="/pdfs/11th-Grade-JEI-Paper.pdf"
+                buttonText="View Manuscript"
             />
           </section>
 
@@ -78,6 +82,7 @@ export default function HSResearch() {
             />
             <PDFViewer
                 src="/pdfs/10th-Grade-JYEM-Paper.pdf"
+                buttonText="View Manuscript"
             />
           </section>
 
