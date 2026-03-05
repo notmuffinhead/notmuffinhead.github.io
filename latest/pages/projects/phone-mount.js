@@ -67,6 +67,10 @@ export default function PhoneMount() {
               alt=""
               width={3783}
               height={2770}
+              style={{
+                width: '100%',
+                height: 'auto'
+              }}
             />
           </div>
         </div>

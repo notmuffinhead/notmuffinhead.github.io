@@ -91,7 +91,9 @@
   max-width: 300px; 
 }
 
-.flexImage img { 
+.flexImage img {
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
