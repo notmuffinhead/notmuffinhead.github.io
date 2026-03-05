@@ -4,6 +4,22 @@ import ProjectCard from './ProjectCard'
 export default function Projects() {
   const projects = [
     {
+      id: 'heartprinter', 
+      emoji: '💖', 
+      image: '/images/heartprinter-bottom.jpg',
+      title: 'HeartPrinter', 
+      description: "A parallel wire robot for cardiac gene therapy.",
+      tags: ['Surgical Mechatronics Lab', 'CAD', 'Systems', '2025']
+    },
+    {
+      id: 'intelliheat', 
+      emoji: '🍳',
+      image: '/images/intelliheat-polished.jpg',
+      title: 'IntelliHeat', 
+      description: "A wireless closed-loop stove temperature controller.", 
+      tags: ['ESP32', 'ESP-NOW', 'C++', 'PID Control', 'Build18', '2026']
+    },
+    {
       id: 'detector',
       emoji: '⚖️',
       image: '/images/detector.jpg',
@@ -63,8 +79,6 @@ export default function Projects() {
         <section>
           <h3>{"Currently Working On..."}</h3>
           <ul>
-            <li>{"Developing the HeartPrinter (Research at the Surgical Mechatronics Lab)"}</li>
-            <li>{"Learning PCB design on Fusion 360"}</li>
             <li>{"Improving a figurine launcher I half-completed in 2023 (with a custom PCB)"}</li>
             <li>{"Making a power meter and accompanying app for my bike using an Arduino Nano ESP32 (more of a long term project to learn about IoT and signal processing)"}</li>
           </ul>

@@ -64,6 +64,20 @@
   transform: translateY(-5px); 
 }
 
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+.projectImage {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .flexContainer {
   display: flex;
   align-items: center; /* vertically center */
@@ -77,8 +91,7 @@
   max-width: 300px; 
 }
 
-.flexImage img {
-  border-radius: 10px;
+.flexImage img { 
   object-fit: cover;
 }
 

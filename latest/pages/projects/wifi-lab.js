@@ -25,7 +25,7 @@ export default function WifiLab() {
             `}</p>
             <div className={styles.fileLink}>
               <Link href="/pdfs/Wifi-Lab-Rules-Manual-2023.pdf" target="_blank">
-                Full Event Guidelines
+                {"Full Event Guidelines"}
               </Link>
             </div>
           </section>
@@ -48,10 +48,7 @@ export default function WifiLab() {
               alt=""
               width={936}
               height={880}
-              style={{
-                width: '100%', 
-                height: 'auto' 
-              }}
+              className = {styles.projectImage}
             /> 
           </section>
 

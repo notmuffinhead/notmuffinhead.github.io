@@ -32,7 +32,7 @@ export default function About() {
           `}</p>
           <p>{`
             When I'm not studying, working on research, or tinkering, 
-            I enjoy mountain biking, running, and rock climbing. 
+            I enjoy mountain biking, running, skateboarding, and rock climbing. 
           `}</p>
           <p>{`
             Feel free to look around and reach out if you'd like to chat!
