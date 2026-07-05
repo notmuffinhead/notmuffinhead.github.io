@@ -1,6 +1,6 @@
 .about {
-  background: var(--morning-birch); 
-  padding: 90px 100px 150px; 
+  background: var(--morning-birch);
+  padding: 90px 100px 150px;
 }
 
 .aboutContainer {
@@ -8,16 +8,16 @@
   align-items: center; /* vertically center */
   gap: 2rem; /* space between image and text */
   flex-wrap: wrap; /* lets it stack on small screens */
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .aboutImage {
   flex: 0 0 auto;
-  max-width: 400px; 
+  max-width: 400px;
 }
 
 .aboutImage img {
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   object-fit: cover;
 }
 
@@ -29,11 +29,11 @@
   .about {
     padding: 40px 40px;
   }
-  
+
   .aboutContainer {
     flex-direction: column;
   }
-  
+
   .aboutImage {
     align-self: center; /* Center just the image */
     max-width: 300px;

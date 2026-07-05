@@ -10,7 +10,7 @@
 
 .heroNav {
   display: flex;
-  gap: 2rem; 
+  gap: 2rem;
 }
 
 .navLink {
@@ -18,13 +18,14 @@
   text-decoration: none;
   font-size: 1.2rem;
   padding: 10px 20px;
-  border-radius: 10px; 
-  display: inline-block; 
-  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  background-color: var(--surface-translucent);
+  transition: transform var(--transition);
 }
 
 .navLink:hover {
-  transform: translateY(-5px); 
+  transform: translateY(var(--lift-sm));
 }
 
 @media (max-width: 768px) {
@@ -37,12 +38,12 @@
     text-align: center;
     justify-content: center;
   }
-  
+
   .heroNav {
     gap: 1rem;
     order: 3; /* Navigation goes to bottom */
   }
-  
+
   .navLink {
     font-size: 1rem;
     padding: 5px 10px;

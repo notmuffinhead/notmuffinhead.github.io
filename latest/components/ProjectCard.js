@@ -1,10 +1,12 @@
 import styles from './ProjectCard.module.css'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
+import Card from './ui/Card'
+import Chip from './ui/Chip'
 
 export default function ProjectCard({ project }) {
   const router = useRouter()
-  
+
   const handleClick = () => {
     if (project.id !== 'website') {
       router.push(`/projects/${project.id}`)
@@ -12,11 +14,11 @@ export default function ProjectCard({ project }) {
   }
 
   return (
-    <div className={styles.projectCard} onClick={handleClick}>
+    <Card className={styles.projectCard} onClick={handleClick}>
       <div className={styles.projectImage}>
         {project.image ? (
-          <Image 
-            src={project.image} 
+          <Image
+            src={project.image}
             alt={project.title}
             fill
             style={{ objectFit: 'cover' }}
@@ -30,10 +32,10 @@ export default function ProjectCard({ project }) {
         <p>{project.description}</p>
         <div className={styles.projectTags}>
           {project.tags.map(tag => (
-            <span key={tag} className={styles.tag}>{tag}</span>
+            <Chip key={tag}>{tag}</Chip>
           ))}
         </div>
       </div>
-    </div>
+    </Card>
   )
 }

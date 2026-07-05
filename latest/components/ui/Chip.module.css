@@ -1,0 +1,16 @@
+.chip {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: var(--chip-bg);
+  color: var(--chip-fg);
+  border-radius: var(--radius-pill);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .chip {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.6rem;
+  }
+}

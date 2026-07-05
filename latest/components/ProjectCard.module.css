@@ -1,24 +1,18 @@
 .projectCard {
-  background: white;
-  border-radius: 30px;
   overflow: hidden;
-  cursor: pointer; 
-  border: 20px solid white; 
+  cursor: pointer;
+  border: 20px solid var(--surface-card);
 }
 
-.projectCard:hover {
-  transform: translateY(-10px);
-} 
-
 .projectImage {
-  height: 400px; 
+  height: 400px;
   background: white;
-  border-radius: 15px; 
-  border: 2px solid var(--sky-blue); 
+  border-radius: var(--radius-md);
+  border: 2px solid var(--sky-blue);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem; 
+  font-size: 5rem;
   position: relative;
   overflow: hidden;
 }
@@ -28,7 +22,7 @@
 }
 
 .projectContent p {
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 
 .projectTags {
@@ -37,31 +31,17 @@
   gap: 0.5rem;
 }
 
-.tag {
-  padding: 0.3rem 0.8rem;
-  background: var(--alpine-clay);
-  color: white;
-  border-radius: 20px;
-  font-size: 1rem;
-  font-weight: bold; 
-}
-
 @media (max-width: 768px) {
   .projectImage {
     height: 150px;
     font-size: 3rem;
   }
-  
+
   .projectContent {
     padding: 1rem;
   }
 
   .projectContent p {
-    font-size: 1rem; 
-  }
-  
-  .tag {
-    font-size: 0.9rem;
-    padding: 0.25rem 0.6rem;
+    font-size: 1rem;
   }
 }

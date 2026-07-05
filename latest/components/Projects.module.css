@@ -1,27 +1,27 @@
 .projects {
-  background: var(--sky-blue); 
+  background: var(--sky-blue);
   padding: 80px;
   margin: 0 auto;
 }
 
 .projectsGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   gap: 3rem;
 }
 
 .bigCard {
   max-width: 100%;
   margin: 0 auto;
-  padding: 4rem 0rem 0rem; 
+  padding: 4rem 0rem 0rem;
 }
 
 .bigCard section {
   margin-bottom: 3rem;
-  background: rgba(255, 255, 255, 0.7); 
+  background: var(--surface-panel);
   padding: 1.5rem 4.5rem;
-  border-radius: 30px;
-  font-size: 1.2rem; 
+  border-radius: var(--radius-lg);
+  font-size: 1.2rem;
 }
 
 .bigCard ul {
@@ -43,11 +43,10 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .bigCard section {
     margin-bottom: 2rem;
-    font-size: 1rem; 
+    font-size: 1rem;
     padding: 1rem;
   }
 }
-

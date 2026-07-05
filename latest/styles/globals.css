@@ -8,7 +8,29 @@
   --sky-blue: #dff3f5; /* a color i made */
   --darker-sky-blue: #91ccd4;
   --evergreen-shadow: #6d7969; 
-  --light-black: #333; 
+  --light-black: #333;
+
+  /* radii */
+  --radius-sm: 10px;
+  --radius-md: 15px;
+  --radius-lg: 30px;
+  --radius-pill: 999px;
+
+  /* motion */
+  --transition: 0.2s ease;
+  --lift-sm: -5px;
+  --lift-md: -10px;
+
+  /* elevation (defined for shared Card use) */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.12);
+
+  /* semantic surfaces */
+  --surface-card: #fff;
+  --surface-translucent: rgba(255, 255, 255, 0.1);
+  --surface-panel: rgba(255, 255, 255, 0.7);
+  --chip-bg: var(--alpine-clay);
+  --chip-fg: #fff; 
 }
 
 * {

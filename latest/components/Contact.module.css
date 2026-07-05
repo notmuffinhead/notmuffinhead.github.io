@@ -11,19 +11,20 @@
 
 .contactItem {
   padding: 10px 20px;
-  border-radius: 10px; 
-  display: inline-block; 
-  background-color: rgba(255, 255, 255, 0.1); 
-  margin: 0.5rem 1rem; 
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  background-color: var(--surface-translucent);
+  margin: 0.5rem 1rem;
+  transition: transform var(--transition);
 }
 
 .contactItem:hover {
-  transform: translateY(-5px);
+  transform: translateY(var(--lift-sm));
 }
 
 .contactItem a {
   color: var(--light-black);
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -33,13 +34,13 @@
   .contact {
     padding: 40px 40px;
   }
-  
+
   .contactItem {
     display: block;
     margin: 1rem 0;
     padding: 1rem;
   }
-  
+
   .contactItem a {
     font-size: 1.2rem;
     justify-content: center;

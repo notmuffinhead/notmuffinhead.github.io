@@ -1,0 +1,9 @@
+.card {
+  background: var(--surface-card);
+  border-radius: var(--radius-lg);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+  transform: translateY(var(--lift-md));
+}
