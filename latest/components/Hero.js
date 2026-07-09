@@ -4,9 +4,7 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <section className={styles.hero}>
-      <div className={styles.heroLeft}>
-        <h1>{"Maggie Wu"}</h1>
-      </div>
+      <h1>{"Maggie Wu"}</h1>
 
       <nav className={styles.heroNav}>
         <Link href="/#projects" className={styles.navLink}>

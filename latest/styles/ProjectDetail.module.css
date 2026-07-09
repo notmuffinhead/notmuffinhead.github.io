@@ -4,12 +4,6 @@
   padding: 2rem;
 }
 
-.projectHeader h1 {
-  color: var(--light-black);
-  font-size: 3rem;
-  margin-bottom: 1rem;
-} 
-
 .projectContent {
   max-width: 800px;
   margin: 0 auto;
@@ -17,9 +11,10 @@
 
 .projectContent section {
   margin-bottom: 3rem;
-  background: rgba(255, 255, 255, 0.7); 
+  background: var(--surface-card);
   padding: 1.5rem;
-  border-radius: 15px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
 }
 
 .projectContent h2 {
@@ -51,17 +46,18 @@
   text-decoration: none;
   font-size: 1.2rem;
   padding: 10px 20px;
-  border-radius: 10px; 
-  display: inline-block; 
-  background-color: var(--morning-birch); 
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  background-color: var(--morning-birch);
+  transition: transform var(--transition);
 }
 
 .fileLink a:visited {
-  color: var(--light-black); 
+  color: var(--light-black);
 }
 
-.fileLink:hover {
-  transform: translateY(-5px); 
+.fileLink a:hover {
+  transform: translateY(var(--lift-sm));
 }
 
 .imageWrapper {
@@ -72,7 +68,7 @@
 }
 
 .projectImage {
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   width: 100%;
   height: auto;
   display: block;
@@ -108,21 +104,12 @@
     padding: 20px;
   }
   
-  .projectHeader h1 {
-    font-size: 2.2rem;
-  }
-  
   .projectContent {
     padding: 0;
   }
-  
+
   .projectContent h2 {
     font-size: 1.5rem;
-  }
-  
-  .backButton {
-    font-size: 1rem;
-    padding: 0.4rem 0.8rem;
   }
 
   .fileLink {

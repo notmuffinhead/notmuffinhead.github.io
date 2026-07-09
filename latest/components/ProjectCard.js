@@ -8,13 +8,18 @@ export default function ProjectCard({ project }) {
   const router = useRouter()
 
   const handleClick = () => {
-    if (project.id !== 'website') {
-      router.push(`/projects/${project.id}`)
+    if (!project.noModal) {
+      router.push({ pathname: '/', query: { project: project.id } }, undefined, { shallow: true })
     }
   }
 
   return (
-    <Card className={styles.projectCard} onClick={handleClick}>
+    <Card
+      as={project.noModal ? 'div' : 'button'}
+      type={project.noModal ? undefined : 'button'}
+      className={styles.projectCard}
+      onClick={handleClick}
+    >
       <div className={styles.projectImage}>
         {project.image ? (
           <Image

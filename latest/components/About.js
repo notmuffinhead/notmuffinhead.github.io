@@ -8,8 +8,8 @@ export default function About() {
       <div className={styles.aboutContainer}>
         <div className={styles.aboutImage}>
           <Image
-            src="/images/me.jpg"  
-            alt=""
+            src="/images/me.jpg"
+            alt="Maggie smiling in a selfie taken on a rocky summit, with colorful mountain ridges and cloudy sky behind her"
             width={594}
             height={601}
             style={{
