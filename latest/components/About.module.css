@@ -1,5 +1,9 @@
 .about {
-  background: var(--morning-birch);
+  background: linear-gradient(
+    to bottom,
+    var(--morning-birch) calc(100% - 400px),
+    var(--alpine-clay) 100%
+  );
   padding: 90px 100px 150px;
 }
 

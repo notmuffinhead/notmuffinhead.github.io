@@ -1,5 +1,9 @@
 .projects {
-  background: var(--sky-blue);
+  background: linear-gradient(
+    to bottom,
+    var(--sky-blue) calc(100% - 400px),
+    var(--morning-birch) 100%
+  );
   padding: 80px;
   margin: 0 auto;
 }
